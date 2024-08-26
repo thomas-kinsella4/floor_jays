@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#gallery-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14em;
+  }
+  
+  #gallery-div {
+    width: 100vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: white;
+  }
+  
+  .section-header {
+    /* margin-bottom: 2em; */
+    font-weight: 600;
+    font-size: 2.5em;
+    color:   #03709D;
+    /* padding: 1em; */
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  #gallery-subheading {
+    text-align: center;
+    color:  #03709D;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  .gallery-card-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .gallery-card {
+    position: relative;
+    text-align: center;
+    display: inline;
+    width: 22.5em;
+    height: 35em;
+    border-top: 2px solid #03709D;
+    border-bottom: 2px solid #03709D;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  .gallery-title {
+    color: #1F1A16;
+  }
+  
+  .inner-gallery-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .photo {
+    max-width: 90%;
+  }
+
+@media screen and (max-width: 580px) {
+    .gallery-card-text {
+      font-size: 0.65em;
+    }
+  
+    .gallery-title {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .gallery-card-text {
+      font-size: 0.5em;
+    }
+  
+    .gallery-title {
+      font-size: 1em;
+    }
+
+    .photo {
+      max-width: 100%;
+    }
+}

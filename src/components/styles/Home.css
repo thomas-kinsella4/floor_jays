@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#home-wrapper{
+    width: 95vw;
+    margin-left: 2em;
+  }
+#home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 15em;
+    background-image: url('/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/m-wH0FG219FE8-unsplash.jpg');
+    background-size: cover;
+    /* background-image: url("./wallylogo.jpg");
+    background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background: linear-gradient(to bottom, transparent, 70%, #ecf9fa),
+      url("/src/assets/backgroundCode.jpg");
+    background-size: cover; */
+}
+#home-container {
+    height: 95%;
+    width: 95%;
+    /* margin-bottom: 5em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 10px 10px #afdefa; */
+}
+.slogan {
+    color: white;
+    text-shadow: -1px -1px 0 #03709D, 1px -1px 0 #03709D, -1px 1px 0 #03709D, 1px 1px 0 #03709D;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.slogan-change {
+    color: #03709D;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+}
+.body-text {
+    color: #fefae0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    font-size: 1.25em;
+    mix-blend-mode: luminosity;
+    /* background-color: #1f1a166c ; */
+  }
+
+  #home-text{
+    margin-bottom: 2em;
+    max-width: 100%;
+  }
+
+  .homepage-button {
+    background-color: #03709D;
+    border: 2px solid white;
+    /* border-radius: 15px; */
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 8em;
+    will-change: transform;
+  }
+  
+  .homepage-button:disabled {
+    pointer-events: none;
+  }
+  .homepage-button:hover {
+    color: #03709D;
+    background-color: white;
+    border: 2px solid #03709D;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .homepage-button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  @media screen and (max-width: 1110px) {
+    .slogan,
+    .slogan-change{
+        font-size: 3em;
+    }
+
+    .body-text {
+      font-size: 1.1em;
+    }
+
+    .homepage-button {
+      font-size: 1.25em;
+      padding: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 769px) {
+
+    .body-text {
+      font-size: 1.1em;
+    }
+
+    .slogan, .slogan-change {
+      font-size: 3em;
+    }
+
+    #home-text {
+      max-width: 100%;
+    }
+
+    .homepage-button {
+      font-size: 1.25em;
+      padding: 0;
+    }
+
+    
+  }

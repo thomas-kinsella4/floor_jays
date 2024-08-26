@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#about-us {
+  background-color: #001c25;
+  margin-top: 8.25em;
+  padding: 2em;
+}
+
+#about-logo {
+  color: #03709D;
+}
+
+#service-wrapper{
+    width: 90%;
+    height: 65%;
+    /* background-color: #fefae0; */
+    text-align: center;
+  }
+  
+  #services-header {
+    /* margin: 0.75em; */
+    font-family: "Work Sans", sans-serif;
+    color: white;
+  }
+  
+  #services-content{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    background-color: white;
+    border: 5px solid #03709D;
+    padding-top: 8em;
+  }
+  
+  #services-text {
+    color:#1F1A16;
+    font-size: 1.15em;
+    padding: 0.5em;
+  }
+
+  .services-subhead {
+    font-size: 2em;
+    text-decoration: underline;
+  }
+
+  .services-includes {
+    color:#1F1A16;
+    font-size: 1.5em;
+  }
+
+  #service-card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-card {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 1em;
+    color: white;
+  }
+  
+  .service-card-text {
+    font-size: 1.1em;
+  }
+
+  .service-card-title {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .services-pic {
+    width: 15em;
+    padding: 1em;
+    height: 10em;
+  }
+  
+  @media screen and (max-width: 1305px){
+    .service-card {
+      border: none;
+    }
+  }
+    
+  @media screen and (max-width: 900px){
+    #service-wrapper {
+      height: inherit;
+      padding: 1em;
+      margin: 3em;
+    }
+  
+    #services-content {
+      height: auto;
+    }
+  
+    .service-card {
+      margin: 1em;
+    }
+  
+  
+    #service-card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* #process-wrapper {
+      height: inherit;
+      padding: 1em;
+      margin: 3em;
+    }
+  
+    #process-content {
+      display: flex;
+      flex-direction: column;
+    } 
+    */
+  }
+
+  @media screen and (max-width: 500px) {
+    #process-content {
+      padding-top: 0;
+    }
+
+    #services-content {
+      padding-top: 0;
+    }
+  }

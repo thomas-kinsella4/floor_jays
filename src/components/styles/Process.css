@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#process-content {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .process-card-left {
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    color: #03709D;
+    /* width: 25em; 
+    height: 25em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-left: 10em;
+    /* border-radius: 10px; 
+    box-shadow: 1px 6px 15px 4px  #1F1A16; */
+  }
+  
+  .process-card-right {
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    color: #03709D;
+  }
+
+  .inner-process-card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1em;
+    color: #03709D;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .inner-process-card-right {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    color: #03709D;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .inner-process-card-right p {
+    font-size: 1.15em;
+    text-align: left;
+    padding: 1em;
+  }
+
+  .inner-process-card p {
+    font-size: 1.15em;
+    text-align: left;
+    padding: 1em;
+  }
+
+  .service-img {
+    width: 25em;
+    border-radius: 5px;
+  }
+
+  .service-title {
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  .cow-feet {
+    width: 4em;
+    z-index: -1;
+  }
+  
+  #process-header {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    font-size: 2.5em;
+    color:#9ED9F4;
+    /* padding: 1em; */
+    font-family: "Work Sans", sans-serif;
+    padding: 0.5em;
+  }
+  .processCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10;
+    border: 2px solid #00216f;
+  }
+  .processCard text{
+    transition: transform 1s, opacity 1s, fill 1s;
+  }
+  
+  .processCard p {
+    display: none;
+  }
+  .processCard:hover {
+    cursor: pointer;
+    background-color: #3d5a80;
+    border: 2px solid white;
+  }
+  
+  
+  .processCard:hover text{
+    transform: translateY(-10px);
+    opacity: 1;
+    fill: #ffffff;
+  }
+
+
+  /* //////// MEDIA QUERIES //////// */
+
+  @media screen and (max-width: 1100px) {
+    .inner-process-card-right p {
+      font-size: 1em;
+      text-align: left;
+    }
+  
+    .inner-process-card p {
+      font-size: 1em;
+      text-align: left;
+    }
+
+    .service-img {
+      width: 22.5em;
+    }
+
+    .service-title {
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .inner-process-card-right p {
+      font-size: 0.85em;
+      text-align: left;
+    }
+  
+    .inner-process-card p {
+      font-size: 0.85em;
+      text-align: left;
+    }
+
+    .service-img {
+      width: 20em;
+    }
+
+    .service-title {
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .inner-process-card {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .inner-process-card-right {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: 720px){
+    .process-card-left {
+      align-self: center;
+      margin: 0;
+      margin-top: 2em;
+    }
+
+    .process-card-right {
+      align-self: center;
+      margin: 0;
+      margin-top: 2em;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    .process-card-left {
+      align-self: center;
+      margin: 0;
+      margin-top: 2em;
+      width: 20em;
+    }
+
+    .process-card-right {
+      align-self: center;
+      margin: 0;
+      margin-top: 2em;
+      width: 20em;
+    }
+
+    .inner-process-card {
+      padding: 1em;
+    }
+
+    .service-img {
+      width: 18em;
+    }
+  }
+
+
+  /* #process-content{
+  height: 80vh;
+  width: calc(100vw - 2em);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 0px;
+} */
+
+/* #process-section {
+  height: fit-content;
+  padding: 2em;
+  margin: 3em;
+} */
+
+
+
+/* #process-div-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+

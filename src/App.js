@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useRef } from 'react';
+import NavBar from './components/NavBar';
+import Services from './components/Services';
+import Home from './components/Home';
+import Contact from './components/Contact';
+// import Chat from './components/Chat';
+import Reviews from './components/Reviews';
+import Footer from './components/Footer';
+import Process from './components/Process';
+import Gallery from './components/Gallery';
+import AOS from 'aos';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Home />
+      <Services />
+      {/* <Process /> */}
+      <Gallery />
+      <Reviews />
+      <Contact />
+      {/* <Chat/> */}
+      <Footer />
     </div>
   );
 }

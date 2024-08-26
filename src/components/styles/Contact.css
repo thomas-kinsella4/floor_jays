@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#contact-wrapper {
+    text-align: center;
+  }
+  
+  #contact-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding-top: 15em;
+
+  }
+  
+  #form-container{
+    width: 100vw;
+    border-top: 2px solid #03709D;
+    border-bottom: 2px solid #03709D;
+    background-color: #001c25;
+  }
+  
+  #contact-form {
+    padding: 1em;
+    display: grid;
+    justify-items: center;
+  }
+  
+  .form-labels {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .form-inputs {
+    border: 2px solid #03709D;
+    padding-left: 1em;
+    display: block;
+    height: 2.5em;
+    width: 60vw;
+    margin: 0.5em;
+    font-style: italic;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  .form-inputs:focus {
+    outline: none;
+    transition: 0.25s;
+  }
+  
+  #contact-textarea {
+    border: 2px solid #03709D;
+    font-style: italic;
+    overflow-wrap: break-word;
+    resize: none;
+    padding-left: 1em;
+    display: block;
+    width: 60vw;
+    margin: 0.5em;
+      height: 10em;
+    padding: 1em;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  #contact-textarea:focus {
+    outline: none;
+    transition: 0.25s;
+  }
+  
+  #contact-btn {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border: 2px solid #03709D;
+    font-family: "Work Sans", sans-serif;
+    width: 10em;
+  }
+
+  #contact-blurb {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+  }
+
+  #contact-num {
+    display: inline;
+    color: #03709D;
+  }
+  
+  #contact-btn:hover {
+    background-color: #03709D;
+    color: white;
+    transition: 0.25s;
+    border: 2px solid white;
+  }
+
+  .contact-message {
+    font-family: "Work Sans", sans-serif;
+    margin: auto;
+    width: 25em;
+    color: white;
+    background-color: #3d5a80;
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+  #modal-x {
+    font-size: 1.25em;
+    margin-right: 18em;
+  }
+
+  #modal-x:hover {
+    cursor: pointer;
+    color: #EE6C4D;
+    transition: 0.25s;
+  }
+
+  @media screen and (max-width: 664px) {
+    .contact-message {
+      font-size: 0.75em;
+      width: 15em;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .contact-message {
+      font-size: 0.6em;
+      width: 10em;
+    }
+  }
