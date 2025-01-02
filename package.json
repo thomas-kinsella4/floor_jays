@@ -1,7 +1,7 @@
 {
   "name": "floorsite2",
   "version": "0.1.0",
-  "homepage": " https://thomas-kinsella4.github.io/floor_jays/",
+  "homepage": "https://www.floorjays.com",
   "private": true,
   "dependencies": {
     "@dicebear/collection": "^6.0.4",
