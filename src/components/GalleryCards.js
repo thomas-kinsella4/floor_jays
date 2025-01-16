@@ -2,21 +2,21 @@ import Carousel from 'react-bootstrap/Carousel';
 import AOS from 'aos';
 import fj1 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj1.jpg"
 import fj2 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj2.jpg"
-import fj3 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj3.jpg"
+import fj3 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj3.png"
 import fj4 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj4.jpg"
-import fj5 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj5.jpg"
+import fj5 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj5.png"
 import fj6 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj6.jpg"
 import fj7 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj7.jpg"
 import fj8 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj8.jpg"
-import fj9 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj9.jpeg"
+import fj9 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj9.JPG"
 import fj10 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj10.png"
 import fj11 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj11.jpg"
-import fj12 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj12.jpg"
+import fj12 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj12.JPG"
 import fj13 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj13.jpg"
-import fj14 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj14.jpg"
-import fj15 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj15.jpg"
+import fj14 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj14.png"
+import fj15 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj15.png"
 import fj16 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj16.jpg"
-import fj17 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj17.jpg"
+import fj17 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj17.png"
 
 function GalleryCards() {
   return (
@@ -37,6 +37,15 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
+            <img className="photo" src={fj3}></img>
+            </div>
+            </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="gallery-card-section">
+            <div className="gallery-card">
+            <div className="inner-gallery-card">
             <img className="photo" src={fj2}></img>
             </div>
                
@@ -47,7 +56,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj3}></img>
+            <img className="photo" src={fj5}></img>
             </div>
             </div>
         </div>
@@ -65,7 +74,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj5}></img>
+            <img className="photo" src={fj6}></img>
             </div>
             </div>
         </div>
@@ -74,7 +83,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj6}></img>
+            <img className="photo" src={fj7}></img>
             </div>
             </div>
         </div>
@@ -138,6 +147,15 @@ function GalleryCards() {
             <div className="gallery-card">
             <div className="inner-gallery-card">
             <img className="photo" src={fj14}></img>
+            </div>
+            </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="gallery-card-section">
+            <div className="gallery-card">
+            <div className="inner-gallery-card">
+            <img className="photo" src={fj15}></img>
             </div>
             </div>
         </div>
