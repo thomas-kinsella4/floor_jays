@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import AOS from 'aos';
 import fj1 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj1.jpg"
 import fj2 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj2.jpg"
 import fj3 from "/Users/thomaskinsella/Development2/code/wallyFloors/floorsite2/src/components/styles/fj3.png"
@@ -28,7 +27,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
         <div className="gallery-card">
             <div className="inner-gallery-card">
-                <img className="photo" src={fj1}></img>
+                <img className="photo" src={fj1} alt="flooring by floor jays"></img>
             </div>
         </div>
         </div>
@@ -37,7 +36,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj3}></img>
+            <img className="photo" src={fj3} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -46,7 +45,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj2}></img>
+            <img className="photo" src={fj2} alt="flooring by floor jays"></img>
             </div>
                
             </div>
@@ -56,7 +55,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj5}></img>
+            <img className="photo" src={fj5} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -65,7 +64,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj4}></img>
+            <img className="photo" src={fj4} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -74,7 +73,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj6}></img>
+            <img className="photo" src={fj6} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -83,7 +82,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj7}></img>
+            <img className="photo" src={fj7} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -92,7 +91,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj8}></img>
+            <img className="photo" src={fj8} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -101,7 +100,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj9}></img>
+            <img className="photo" src={fj9} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -110,7 +109,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj10}></img>
+            <img className="photo" src={fj10} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -119,7 +118,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj11}></img>
+            <img className="photo" src={fj11} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -128,7 +127,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj12}></img>
+            <img className="photo" src={fj12} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -137,7 +136,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj13}></img>
+            <img className="photo" src={fj13} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -146,7 +145,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj14}></img>
+            <img className="photo" src={fj14} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -155,7 +154,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj15}></img>
+            <img className="photo" src={fj15} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -164,7 +163,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj17}></img>
+            <img className="photo" src={fj17} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
@@ -173,7 +172,7 @@ function GalleryCards() {
         <div className="gallery-card-section">
             <div className="gallery-card">
             <div className="inner-gallery-card">
-            <img className="photo" src={fj16}></img>
+            <img className="photo" src={fj16} alt="flooring by floor jays"></img>
             </div>
             </div>
         </div>
