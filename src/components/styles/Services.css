@@ -2,8 +2,10 @@
 
 #about-us {
   background-color: #001c25;
+  border: 3px, solid, #03709D;
   margin-top: 8.25em;
   padding: 2em;
+  font-weight: 800;
 }
 
 #about-logo {

@@ -58,7 +58,7 @@ AOS.init({
                 experience in the flooring industry. Specializing in the installation of all types of floor
                 coverings, our mission is to provide you with a seamless, hassle-free experience from
                 start to finish. From guiding you through the selection process to ensuring top-notch
-                installation, we’re dedicated to delivering quality and satisfaction every step of the way.
+                installation, we’re dedicated to delivering quality and satisfaction every step of the way. Licensed and insured, we proudly serve all of Suffolk County, Long Island.
                 Trust Floor Jays to transform your space with care and expertise.</p>
             </div>
             <div data-aos="fade-left" className="process-card-left">
